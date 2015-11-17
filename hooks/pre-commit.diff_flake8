@@ -1,0 +1,3 @@
+#!/bin/sh
+
+git diff -- '*py' | flake8 --diff

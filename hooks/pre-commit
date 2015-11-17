@@ -1,0 +1,3 @@
+#!/bin/sh
+
+find ./ -name 'hooks/pre-commit.*' -print0 | xargs -0 -n1 bash
